@@ -1,0 +1,2 @@
+rootProject.name='App_doc_bao_bang_Rss'
+include ':app'

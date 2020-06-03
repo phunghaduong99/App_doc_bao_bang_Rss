@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App_doc_bao_bang_Rss</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="names">
+        <item>VnExpress</item>
+        <item>Tuổi trẻ</item>
+        <item>24h</item>
+    </string-array>
+</resources>
