@@ -7,6 +7,7 @@
     <color name="colorTabBar">#FFFFFF</color>
     <color name="colorBackgroundBar">#F33131</color>
     <color name="colorSelectedTabBar">#FFFFFF</color>
-    <color name="colorSelectedDropdown">#DCDCDC</color>
+    <color name="colorSelectedDropdown">#101010</color>
     <color name="colorBackgroundSpinner">#FB0404</color>
+    <color name="colorBackgroundMain">#EAE8E8</color>
 </resources>

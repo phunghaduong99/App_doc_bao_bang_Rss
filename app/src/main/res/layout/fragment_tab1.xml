@@ -4,22 +4,31 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:layout_gravity="center"
+
     tools:context=".fragment.Tab1">
 
     TODO: Update blank fragment layout
 
+    >
     <androidx.appcompat.widget.AppCompatSpinner
-        android:layout_marginTop="20dp"
+        style="@style/Widget.AppCompat.Spinner.DropDown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_marginTop="10dp"
         android:spinnerMode="dropdown"
         android:dropDownSelector="@color/colorSelectedDropdown"
+        android:theme="@style/Spinner"
         android:id="@+id/spinner1" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/listView1"></ListView>
+
+        android:id="@+id/listView1"
+        style="@style/ListView"
+
+        ></ListView>
+
 
 </LinearLayout>
