@@ -13,19 +13,28 @@
         android:background="@color/cardview_light_background"
         android:layout_height="wrap_content">
 
-        <androidx.appcompat.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/toolbar"
-            android:minHeight="?attr/actionBarSize"
-            android:background="@android:color/white"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--        <androidx.appcompat.widget.Toolbar-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:id="@+id/toolbar"-->
+        <!--            android:minHeight="?attr/actionBarSize"-->
+        <!--            android:background="@android:color/white"-->
+        <!--            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">-->
 
-        </androidx.appcompat.widget.Toolbar>
+        <!--        </androidx.appcompat.widget.Toolbar>-->
 
         <com.google.android.material.tabs.TabLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minHeight="?actionBarSize"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/colorTabBar"
+            app:tabIndicatorHeight="3dp"
+            app:tabTextColor="@color/colorTexBar"
+            app:tabBackground="@color/colorBackgroundBar"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/colorSelectedTabBar"
+            app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
             android:id="@+id/tab_layout">
 
         </com.google.android.material.tabs.TabLayout>

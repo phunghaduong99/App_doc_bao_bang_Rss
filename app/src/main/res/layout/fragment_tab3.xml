@@ -7,11 +7,19 @@
     tools:context=".fragment.Tab3">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:spinnerMode="dropdown"
+        android:dropDownSelector="@color/colorSelectedDropdown"
+        android:id="@+id/spinner3" />
+
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textSize="30dp"
-        android:text="Tab 3" />
+        android:id="@+id/listView3"></ListView>
 
 </LinearLayout>

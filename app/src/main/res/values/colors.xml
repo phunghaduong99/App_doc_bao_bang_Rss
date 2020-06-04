@@ -3,4 +3,10 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorTexBar">#FBE7E7</color>
+    <color name="colorTabBar">#FFFFFF</color>
+    <color name="colorBackgroundBar">#F33131</color>
+    <color name="colorSelectedTabBar">#FFFFFF</color>
+    <color name="colorSelectedDropdown">#DCDCDC</color>
+    <color name="colorBackgroundSpinner">#FB0404</color>
 </resources>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".fragment.Tab2">
+    tools:context=".fragment.Tab8">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -15,11 +15,11 @@
         style="@style/Widget.AppCompat.Spinner.Underlined"
         android:spinnerMode="dropdown"
         android:dropDownSelector="@color/colorSelectedDropdown"
-        android:id="@+id/spinner2" />
+        android:id="@+id/spinner8" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/listView2"></ListView>
+        android:id="@+id/listView8"></ListView>
 
 </LinearLayout>
